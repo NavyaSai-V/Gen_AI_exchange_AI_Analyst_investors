@@ -13,3 +13,5 @@ pymupdf>=1.26.4
 pypdf2>=3.0.1
 pytesseract>=0.3.13
 speechrecognition>=3.14.3
+dotenv>=0.9.9
+ 
