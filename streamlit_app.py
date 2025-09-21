@@ -16,7 +16,7 @@ def main():
     prompts_path = os.path.join(current_directory, "config/prompt")
     deal_notes_prompt_path = os.path.join(prompts_path, "deal_notes_generation.md")
     metric_prompt_path = os.path.join(prompts_path, "metric_generation.md")
-    file_path = "C:\\Agent GCP\\all_extracted_data.json"
+    file_path = "all_extracted_data.json"
     docx_path = "deal_notes_generation.docx"
 
     with open(deal_notes_prompt_path, "r", encoding='utf-8') as file:
